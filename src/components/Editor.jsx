@@ -1,3 +1,5 @@
+import './css/editor.css'
+
 export const Editor = ({text,setText}) => {
 
     const handleChange = e => {
@@ -7,9 +9,11 @@ export const Editor = ({text,setText}) => {
 
     return (
       <div className="container editorContainer">
-          <div class="form-group">
-            <label for="editor"><h1>Editor</h1></label>
-            <textarea onInput={handleChange} defaultValue={text} class="form-control" name="editor" id="editor" rows="2"></textarea>
+          <div className="form-group">
+            <label for="editor"><h4>Editor</h4></label>
+            <textarea 
+              onInput={handleChange} 
+              defaultValue={text} class="form-control" name="editor" id="editor" rows="2"></textarea>
           </div>
       </div>
     )

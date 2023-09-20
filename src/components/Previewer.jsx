@@ -5,7 +5,7 @@ export const Previewer = ({text}) => {
   return (
     <div className="container previewerContainer" id="preview">
         <div className="container">
-            <h1>Previewer</h1>
+            <h4>Previewer</h4>
         </div>
         <div className="container">
           <MarkdownPreview source={source}/>

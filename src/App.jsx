@@ -11,7 +11,7 @@ function App() {
   }, [])
   
   return (
-    <>
+    <div className='app'>
       <Editor
         text={text}
         setText={setText}
@@ -19,7 +19,7 @@ function App() {
       <Previewer
         text={text}
       />
-    </>
+    </div>
   )
 }
 

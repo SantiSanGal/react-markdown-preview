@@ -1,0 +1,13 @@
+.editorContainer{
+    background-color: red;
+    padding: 0;
+    margin: 1rem;
+    border-radius: 7px;
+    width: 50vw;
+    height: fit-content;
+}
+
+.editorContainer textarea{
+    overflow-y: scroll;
+    width: 100%;
+}
